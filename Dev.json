@@ -1,0 +1,27 @@
+{
+  "release": {
+    "name": "Production release file",
+    "version": "1.0.0",
+    "infrastructure": "1.0.0",
+    "automation": "1.0.0",
+    "services": {
+      "intdb": {
+          "version": "1.0.0",
+          "configuration": "1.0.0",
+          "servers": ["172.32.1.245"]
+    },
+      "intapi": {
+          "version": "1.0.0",
+          "configuration": "1.0.0",
+          "servers": ["172.32.1.245"]
+      },
+      "intweb": {
+          "version": "1.0.0",
+          "configuration": "1.0.0",
+          "servers": ["172.32.1.245"]
+
+      }
+
+    }
+  }
+}
