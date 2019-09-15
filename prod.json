@@ -1,12 +1,34 @@
 {
-  "Services" : {
-    "Configuration" : "1.0.0",
-    "INT_WEB" : "1.0.0",
-    "Infrastructure" : "1.0.0",
-    "INT_API" : "1.0.0",
-    "INT_DB" : "1.0.0",
-    "Automation" : "1.0.0",
-    "Release" : "1.0.0",
-    "Monitoring" : "1.0.0"
+  "release": {
+    "name": "Production release file",
+    "version": "1.0.0",
+    "infrastructure": "1.0.0",
+    "automation": "1.0.0",
+    "services": {
+      "intapi": {
+        "version": "1.0.0",
+        "configuration": "1.0.0",
+        "servers": [
+          "10.10.10.1",
+          "10.10.10.2"
+        ]
+      },
+      "intweb": {
+        "version": "1.0.0",
+        "configuration": "1.0.0",
+        "servers": [
+          "10.10.10.3",
+          "10.10.10.4"
+        ]
+      },
+      "intdb": {
+        "version": "1.0.0",
+        "configuration": "1.0.0",
+        "servers": [
+          "10.10.10.5",
+          "10.10.10.6"
+        ]
+      }
+    }
   }
 }
